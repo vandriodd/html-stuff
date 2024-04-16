@@ -1,0 +1,112 @@
+@font-face {
+  font-family: "Now";
+  src: url("Now-Light.eot");
+  src: url("Now-Light.eot?#iefix") format("embedded-opentype"),
+    url("Now-Light.woff2") format("woff2"), url("Now-Light.woff") format("woff"),
+    url("Now-Light.ttf") format("truetype"),
+    url("Now-Light.svg#Now-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Now";
+  src: url("Now-Regular.eot");
+  src: url("Now-Regular.eot?#iefix") format("embedded-opentype"),
+    url("Now-Regular.woff2") format("woff2"),
+    url("Now-Regular.woff") format("woff"),
+    url("Now-Regular.ttf") format("truetype"),
+    url("Now-Regular.svg#Now-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Now";
+  src: url("Now-ExtraLight.eot");
+  src: url("Now-ExtraLight.eot?#iefix") format("embedded-opentype"),
+    url("Now-ExtraLight.woff2") format("woff2"),
+    url("Now-ExtraLight.woff") format("woff"),
+    url("Now-ExtraLight.ttf") format("truetype"),
+    url("Now-ExtraLight.svg#Now-ExtraLight") format("svg");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Now";
+  src: url("Now-Bold.eot");
+  src: url("Now-Bold.eot?#iefix") format("embedded-opentype"),
+    url("Now-Bold.woff2") format("woff2"), url("Now-Bold.woff") format("woff"),
+    url("Now-Bold.ttf") format("truetype"),
+    url("Now-Bold.svg#Now-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Now";
+  src: url("Now-Black.eot");
+  src: url("Now-Black.eot?#iefix") format("embedded-opentype"),
+    url("Now-Black.woff2") format("woff2"), url("Now-Black.woff") format("woff"),
+    url("Now-Black.ttf") format("truetype"),
+    url("Now-Black.svg#Now-Black") format("svg");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Now";
+  src: url("Now-Medium.eot");
+  src: url("Now-Medium.eot?#iefix") format("embedded-opentype"),
+    url("Now-Medium.woff2") format("woff2"),
+    url("Now-Medium.woff") format("woff"),
+    url("Now-Medium.ttf") format("truetype"),
+    url("Now-Medium.svg#Now-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Now";
+  src: url("Now-ExtraBold.eot");
+  src: url("Now-ExtraBold.eot?#iefix") format("embedded-opentype"),
+    url("Now-ExtraBold.woff2") format("woff2"),
+    url("Now-ExtraBold.woff") format("woff"),
+    url("Now-ExtraBold.ttf") format("truetype"),
+    url("Now-ExtraBold.svg#Now-ExtraBold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Now";
+  src: url("Now-SemiBold.eot");
+  src: url("Now-SemiBold.eot?#iefix") format("embedded-opentype"),
+    url("Now-SemiBold.woff2") format("woff2"),
+    url("Now-SemiBold.woff") format("woff"),
+    url("Now-SemiBold.ttf") format("truetype"),
+    url("Now-SemiBold.svg#Now-SemiBold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Now";
+  src: url("Now-Thin.eot");
+  src: url("Now-Thin.eot?#iefix") format("embedded-opentype"),
+    url("Now-Thin.woff2") format("woff2"), url("Now-Thin.woff") format("woff"),
+    url("Now-Thin.ttf") format("truetype"),
+    url("Now-Thin.svg#Now-Thin") format("svg");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
