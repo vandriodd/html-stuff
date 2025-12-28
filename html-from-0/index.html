@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Portfolio vandriodd</title>
+
+    <meta
+      name="description"
+      content="Portfolio de vandriodd, 2 años de experiencia como desarrolladora de software"
+    />
+
+    <meta name="robots" content="index,follow" />
+    <meta name="theme-color" content="#09f" />
+
+    <!-- OPEN GRAPH TAGS -->
+    <meta property="og:title" content="Portfolio de Ing. de Software" />
+    <meta
+      property="og:description"
+      content="Portfolio de vandriodd, 2 años de experiencia como Ing. de Software"
+    />
+    <meta property="og:image" content="/oc.svg" />
+    <meta
+      property="og:image:alt"
+      content="Una imagen de un personaje flotando con una laptop"
+    />
+
+    <link rel="icon" type="image/jpg" href="/oc.svg" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Portfolio de @vandriodd</h1>
+
+      <nav>
+        <a href="#experiencia">Experiencia</a>
+        <a href="#tecnologias">Tecnologias</a>
+        <a href="https://twitch.tv" target="_blank" rel="noreferrer">Twitch</a>
+      </nav>
+    </header>
+
+    <main>
+      <p>
+        +2 años de experiencia como <strong>Desarrolladora de Software</strong>.
+      </p>
+
+      <h2 id="experiencia">Experiencia</h2>
+
+      <ul>
+        <li>DGamerStudio - 2024</li>
+        <li>Rogers Capital - Presente</li>
+      </ul>
+
+      <img
+        id="img"
+        src="oc.svg"
+        width="200"
+        height="200"
+        alt="persona flotando con laptop"
+        title="Imagen de OC"
+      />
+
+      <a href="https://wa.me/34688888999?text=Hola"
+        >Enviar un mensaje por WhatsApp</a
+      >
+
+      <section>
+        <h2>Preguntas frecuentes</h2>
+
+        <details>
+          <summary>Cuales son tus estudios?</summary>
+          <p>Holberton School Uruguay</p>
+        </details>
+
+        <details>
+          <summary>Cual es tu lenguaje favorito?</summary>
+          <p>JavaScript</p>
+        </details>
+      </section>
+
+      <section>
+        <h2>Formulario de contacto</h2>
+
+        <form method="post" action="/">
+          <fieldset>
+            <legend>Información personal</legend>
+
+            <!-- <label for="name">Nombre</label>
+            <input type="text" id="name" name="name" placeholder="John Doe" /> -->
+
+            <label
+              >Nombre
+              <input type="text" name="name" placeholder="John Doe" required />
+            </label>
+
+            <label
+              >Email
+              <input
+                type="email"
+                name="email"
+                placeholder="johndoe@gmail.com"
+                required
+              />
+            </label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Información adicional</legend>
+
+            <label
+              >Teléfono
+              <input type="tel" name="tel" pattern="[0-9]{9}" required />
+            </label>
+          </fieldset>
+
+          <fieldset>
+            <datalist id="languages">
+              <option value="JavaScript"></option>
+              <option value="Python"></option>
+              <option value="Java"></option>
+              <option value="C#"></option>
+            </datalist>
+
+            <label>
+              Con que lenguaje quieres que te ayude?
+              <input list="languages" />
+            </label>
+          </fieldset>
+
+          <button type="submit">Enviar contacto</button>
+        </form>
+      </section>
+
+      <section>
+        <h2>Video y audio</h2>
+
+        <audio
+          controls
+          src="https://samplelib.com/lib/preview/mp3/sample-3s.mp3"
+        ></audio>
+
+        <video
+          autoplay
+          loop
+          src="https://www.pexels.com/download/video/4168972/"
+        ></video>
+      </section>
+
+      <section>
+        <iframe src="https://www.luliluz.com/" frameborder="0"></iframe>
+      </section>
+
+      <dialog id="dialog">
+        <h2>Dialog</h2>
+
+        <p>Esto es un dialog</p>
+
+        <button id="hide">Cerrar Dialog</button>
+      </dialog>
+
+      <button id="show">Abrir Dialog</button>
+
+      <script>
+        window.show.addEventListener("click", () => {
+          window.dialog.showModal();
+        });
+
+        window.hide.addEventListener("click", () => {
+          window.dialog.close();
+        });
+      </script>
+    </main>
+
+    <aside>
+      <header>
+        <h3 id="tecnologias">Mis tecnologías favoritas</h3>
+      </header>
+
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+        <li>Node.js</li>
+      </ul>
+    </aside>
+  </body>
+</html>
